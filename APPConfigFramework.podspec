@@ -10,13 +10,13 @@ s.requires_arc = true
 s.ios.deployment_target = '8.0'
 
 #需要包含的源文件
-s.source_files = 'APPConfigFramework/TestFramework.framework/Headers/*.{h}'
+s.source_files = 'TestFramework.framework/Headers/*.{h}'
 
 #你的SDK路径
-s.vendored_frameworks = 'APPConfigFramework/TestFramework.framework'
+s.vendored_frameworks = 'TestFramework.framework'
 
 #SDK头文件路径
-s.public_header_files = 'APPConfigFramework/TestFramework.framework/Headers/TestFramework.h'
+s.public_header_files = 'TestFramework.framework/Headers/TestFramework.h'
 
 #依赖库
 s.frameworks   = 'UIKit','Foundation','CoreLocation'
